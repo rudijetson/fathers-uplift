@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState, useEffect } from 'react'
-import { Card, CardContent } from "@/components/ui/card"
+import { Card, CardContent } from "@/app/components/ui/card"
 import { motion } from "framer-motion"
 
 interface DonationTier {
@@ -75,10 +75,11 @@ export const Fundraise: React.FC = () => {
           {donationTiers.map((tier, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
+              initial={{ opacity: 0, transform: 'translateY(20px)' }}
+              whileInView={{ opacity: 1, transform: 'translateY(0)' }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="will-change-transform"
             >
               <Card 
                 className={`cursor-pointer transition-all hover:-translate-y-1 ${
@@ -113,10 +114,10 @@ export const Fundraise: React.FC = () => {
 
         {/* Custom Amount */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="max-w-md mx-auto mb-12"
+          initial={{ opacity: 0, transform: 'translateY(20px)' }}
+          whileInView={{ opacity: 1, transform: 'translateY(0)' }}
+          viewport={{ once: true, margin: "-50px" }}
+          className="max-w-md mx-auto mb-12 will-change-transform"
         >
           <Card className={`${
             selectedAmount === 0 && customAmount 
@@ -147,10 +148,10 @@ export const Fundraise: React.FC = () => {
 
         {/* Donate Button */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center"
+          initial={{ opacity: 0, transform: 'translateY(20px)' }}
+          whileInView={{ opacity: 1, transform: 'translateY(0)' }}
+          viewport={{ once: true, margin: "-50px" }}
+          className="text-center will-change-transform"
         >
           <button
             className={`

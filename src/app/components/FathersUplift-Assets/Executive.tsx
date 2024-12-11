@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import { Card, CardContent } from "@/components/ui/card"
+import { Card, CardContent } from "@/app/components/ui/card"
 
 const executiveSummary = {
   mission: "Fathers' UpLift is a pioneering organization dedicated to helping fathers overcome obstacles that prevent them from being present in their children's lives.",

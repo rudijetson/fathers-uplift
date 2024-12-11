@@ -2,8 +2,9 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/app/components/ui/card"
 import { Brain, Heart, Shield, Users } from 'lucide-react'
+import Image from 'next/image'
 
 const impactAreas = [
   {
@@ -63,6 +64,16 @@ const YouthMentalHealth: React.FC = () => {
               </Card>
             </motion.div>
           ))}
+        </div>
+
+        <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden mb-12">
+          <Image
+            src="/dad-daughter.png"
+            alt="Father and daughter sharing a joyful moment"
+            fill
+            className="object-cover w-full h-full"
+            loading="lazy"
+          />
         </div>
 
         <Card className="bg-fathers-blue text-white">

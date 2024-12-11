@@ -1,8 +1,9 @@
 "use client"
 
 import React from 'react'
-import { Card, CardContent } from "@/components/ui/card"
+import { Card, CardContent } from "@/app/components/ui/card"
 import { motion } from "framer-motion"
+import Image from 'next/image'
 
 interface PathwayType {
   title: string
@@ -240,6 +241,16 @@ export const TheoryOfChange: React.FC = () => {
                 </Card>
               </motion.div>
             ))}
+          </div>
+
+          <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden my-16">
+            <Image
+              src="/dad-daughter2.png"
+              alt="Father and daughter bonding moment"
+              fill
+              className="object-cover w-full h-full"
+              loading="lazy"
+            />
           </div>
 
           {/* Indicators Timeline - Modern Timeline */}

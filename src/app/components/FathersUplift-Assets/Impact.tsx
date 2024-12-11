@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Card, CardContent } from "@/components/ui/card"
+import { Card, CardContent } from "@/app/components/ui/card"
 
 const stats = [
   { label: "Fathers and family members served since 2011", value: "14,000+" },

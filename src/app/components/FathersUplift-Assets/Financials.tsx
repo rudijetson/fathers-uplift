@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from 'react'
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/app/components/ui/card"
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area } from 'recharts'
 import revenueData from '@/app/data/revenue.json'
 import localOperationsData from '@/app/data/local_operations.json'
