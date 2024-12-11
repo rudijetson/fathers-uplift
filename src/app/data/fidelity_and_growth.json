@@ -1,0 +1,15 @@
+{
+  "categories": [
+    "Senior Development Associate (.25 FTE)",
+    "Development Director (.25 FTE)",
+    "Ex. Consulting/PR"
+  ],
+  "years": ["Year 1", "Year 2", "Year 3", "Year 4", "Total"],
+  "data": [
+    [18750, 18750, 18750, 18750, 75000],
+    [34000, 34000, 34000, 34000, 136000],
+    [32000, 5000, 5000, 5000, 47000]
+  ],
+  "totals": [84750, 57750, 57750, 57750, 258000]
+}
+

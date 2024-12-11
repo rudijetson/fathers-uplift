@@ -1,0 +1,19 @@
+{
+  "categories": [
+    "Greenlight Fund",
+    "Corporate Grants",
+    "Foundation Grants",
+    "Government Grants",
+    "Earned Income (fee-for-service)"
+  ],
+  "years": ["Year 1", "Year 2", "Year 3", "Year 4", "Total"],
+  "data": [
+    [200000, 150000, 125000, 125000, 600000],
+    [0, 50000, 50000, 50000, 150000],
+    [880000, 366667, 366667, 116667, 1730001],
+    [25000, 10000, 50000, 100000, 185000],
+    [72711, 90889, 113611, 142014, 419225]
+  ],
+  "totals": [1177711, 667556, 705278, 533681, 3084226]
+}
+
